@@ -10,6 +10,36 @@
     />
     <link rel="stylesheet" href="css/styles.css">
     <title>Admin Dashboard</title>
+    <style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #808080;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
 </head>
 <body>
     <div class="container">
@@ -17,11 +47,17 @@
         <div class="nav_icon" onclick="toggleSidebar()">
           <i class="fa fa-bars" aria-hidden="true"></i>
         </div>
-        <div class="navbar__left">
-          <a href="#">Subscribers</a>
-          <a href="#">Video Management</a>
+        <div class="topnav">
+  <a class="active" href="#home">Admin</a>
+  <a href="#news"> href= Daftar Peminjam</a>
+  <a href="#contact">Data Peminjam</a>
+  <!-- <a href="#about">About</a> -->
+</div>
+        <!-- <div class="navbar__left">
+          <a href="#">Data Peminjam</a>
+          <a href="#">Daftar peminjaman</a>
           <a class="active_link" href="#">Admin</a>
-        </div>
+        </div> -->
         <div class="navbar__right">
           <a href="#">
             <i class="fa fa-search" aria-hidden="true"></i>
@@ -137,8 +173,8 @@
       <div id="sidebar">
         <div class="sidebar__title">
           <div class="sidebar__img">
-            <img src="assets/logo.png" alt="logo" />
-            <h1>DevQueen</h1>
+            <img src="img/PS.png" alt="logo" />
+            <h1>Rernta PS</h1>
           </div>
           <i
             onclick="closeSidebar()"
@@ -153,28 +189,28 @@
             <i class="fa fa-home"></i>
             <a href="#">Dashboard</a>
           </div>
-          <h2>MNG</h2>
-          <div class="sidebar__link">
+          <!-- <h2>MNG</h2> -->
+          <!-- <div class="sidebar__link">
             <i class="fa fa-user-secret" aria-hidden="true"></i>
-            <a href="forum_data.php">Admin Management</a>
+            <a href="forum_data.php">Admin Management</a> -->
           </div>
           <div class="sidebar__link">
             <i class="fa fa-building-o"></i>
             <a href="register.php">register</a>
           </div>
-          <div class="sidebar__link">
+          <!-- <div class="sidebar__link">
             <i class="fa fa-wrench"></i>
             <a href="#">Employee Management</a>
-          </div>
-          <div class="sidebar__link">
+          </div> -->
+          <!-- <div class="sidebar__link">
             <i class="fa fa-archive"></i>
             <a href="#">Warehouse</a>
-          </div>
-          <div class="sidebar__link">
+          </div> -->
+          <!-- <div class="sidebar__link">
             <i class="fa fa-handshake-o"></i>
             <a href="#">Contracts</a>
-          </div>
-          <h2>LEAVE</h2>
+          </div> -->
+          <!-- <h2>LEAVE</h2>
           <div class="sidebar__link">
             <i class="fa fa-question"></i>
             <a href="#">Requests</a>
@@ -195,10 +231,14 @@
           <div class="sidebar__link">
             <i class="fa fa-money"></i>
             <a href="#">Payroll</a>
-          </div>
+          </div> -->
           <div class="sidebar__link">
             <i class="fa fa-briefcase"></i>
             <a href="#">Paygrade</a>
+          </div>
+          <div class="sidebar__logout">
+            <i class="fa fa-power-off"></i>
+            <a href="#">Log in</a>
           </div>
           <div class="sidebar__logout">
             <i class="fa fa-power-off"></i>

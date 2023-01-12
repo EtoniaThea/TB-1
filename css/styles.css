@@ -385,6 +385,12 @@ main {
   font-size: 18px;
 }
 
+.sidebar_logout {
+  margin-top: 20px;
+  padding: 10px;
+  color: #00f62d;
+}
+
 .sidebar__logout {
   margin-top: 20px;
   padding: 10px;
@@ -393,9 +399,21 @@ main {
 
 .sidebar__logout > a {
   text-decoration: none;
+  color: #82e650;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sidebar__logout > a {
+  text-decoration: none;
   color: #e65061;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.sidebar_logout > i {
+  margin-right: 10px;
+  font-size: 18px;
 }
 
 .sidebar__logout > i {
