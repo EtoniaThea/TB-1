@@ -1,0 +1,26 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.table{
+    margin: 20px 20px;
+    width: 100px;
+}
+table {
+    width: 900px;
+}
+th {
+    height: 80px;
+}
+td {
+    height: 40px;
+}
+a {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+table {
+    margin-top: 20px;
+}
